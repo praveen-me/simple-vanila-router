@@ -7,7 +7,7 @@ const routes = {
 const rootDiv = document.getElementById('root');
 rootDiv.innerHTML = routes[window.location.pathname];
 
-const onNavItemClick = (pathname) => {
+const onNavigate = (pathname) => {
   window.history.pushState(
     {},
     pathname,
